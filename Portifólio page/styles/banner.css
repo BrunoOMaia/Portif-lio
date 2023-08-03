@@ -1,0 +1,59 @@
+.banner {
+    border: 2px solid black ;
+    padding: 3em;
+    margin: 1.5em 4em 4em 4em;
+    border-radius: 10px;
+    background-image: url(/img/tecnologia.jpg);
+    background-position: 70%;
+    display: flex;
+    
+}
+
+.banner__descrição {
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 40px;
+    margin-left: 2em;
+    display: flex;
+}
+
+.banner__link {
+    text-decoration: none;
+    border: 2px solid #34cdec;
+    border-radius: 20px;
+    padding: 1em 5em;
+    font-size: 23px;
+    color: #34cdec;
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 5.5em;
+    
+    
+}
+
+.banner__link:hover {
+    background-color: rgb(255, 252, 252);
+    color: #080808;
+    transition: 600ms;
+    border: 3px solid black;
+    padding: 1em 5em;
+    font-size: 25px;
+    box-shadow: 1px 1px 200px #34cdec;
+}
+
+.foto {
+    display: flex;
+    margin: 1.6em 0 2em 7em;
+    background-color: #080808;
+    border-radius: 200px;
+    border: 2px solid black;
+}
+
+.descrição__texto {
+    margin-bottom: 2em;
+}
+
+.negrito {
+    color: #2b93a8;
+}
+
+
