@@ -1,236 +1,365 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
-    <link rel="stylesheet" href="styles/header.css">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@400;600;700&family=Kanit:ital,wght@0,600;1,500;1,800;1,900&family=Russo+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@400;600;700&family=Kanit:ital,wght@0,600;1,500;1,800;1,900&family=Poppins:wght@500;700&family=Russo+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/banner.css">
-    <link rel="stylesheet" href="styles/sobre.css">
-    <link rel="stylesheet" href="styles/habilidades.css">
-    <link rel="stylesheet" href="styles/projetos.css">
-    <link rel="stylesheet" href="styles/rodape.css">
-
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,700;1,500&display=swap" rel="stylesheet">
 </head>
-
-
 <body>
 
-    <header class="cabeçalho" id="section0">
-        <div class="container__cabeçalho">
-            <button type="button" class="btn cube cube-hover">
-                <div class="bg-top">
-                <div class="bg-inner"></div>
-                </div>
-                <div class="bg-right">
-                <div class="bg-inner"></div>
-                </div>
-                <div class="bg">
-                <div class="bg-inner"></div>
-                </div>
-                <div class="text">Bruno Maia</div>
-              </button>
+    <header class="cabeçalho">
+        <div class="cabeçalho__container-desktop">
+            <div class="botão__desktop-header">
+                <button type="button" class="btn cube cube-hover">
+                    <div class="bg-top">
+                    <div class="bg-inner"></div>
+                    </div>
+                    <div class="bg-right">
+                    <div class="bg-inner"></div>
+                    </div>
+                    <div class="bg">
+                    <div class="bg-inner"></div>
+                    </div>
+                    <div class="text">Bruno Maia</div>
+                  </button>
+            </div>
+            <ul class="lista__desktop-header">
+                <li class="item__desktop-header">
+                    <a href="#section2" class="link__desktop-header">Sobre mim</a>
+                </li> 
+                <li class="item__desktop-header">
+                    <a href="#section3" class="link__desktop-header">Habilidades</a>
+                </li> 
+                <li class="item__desktop-header">
+                    <a href="#section4" class="link__desktop-header">Projetos</a>
+                </li> 
+                <li class="item__desktop-header">
+                    <a href="#section5" class="link__desktop-header">Contato</a>
+                </li> 
+            </ul>
+
         </div>
+        <div class="cabeçalho__container">
+              <div class="elementos__cima">
 
-        <ul class="opções__cabeçalho">
-            <li class="opções__item">
-                 <a href="#section2" class="opções__link">Sobre</a>
-            </li>
+                  <li class="opções__item-cima">
+                      <button1 type="button1" class="btn1 cube cube-hover">
+                          <div class="bg-top">
+                              <div class="bg-inner"></div>
+                          </div>
+                          <div class="bg-right">
+                              <div class="bg-inner"></div>
+                          </div>
+                          <div class="bg">
+                              <div class="bg-inner"></div>
+                          </div>
+                          <div class="text">B M</div>
+                      </button1>
+                  </li>
+                  
+                  <ul class="opções__cima">
+      
+                  <li class="opções__item-cima">
+                      <a href="#section2" class="lista-menu__link_cima">Sobre mim</a>
+                    </li>
+                </ul>
+              </div>
 
-            <li class="opções__item">
-                <a href="#section3" class="opções__link">Habilidades</a>
-           </li>
+              <div class="elementos__baixo">
+                    <ul class="opções__baixo">
+                        <li class="opções__item-baixo">
+                            <a href="#section3" class="lista-menu__link_baixo">Habilibades</a>
+                        </li>
 
-           <li class="opções__item">
-            <a href="#section4" class="opções__link">Projetos</a>
-       </li>
+                        <li class="opções__item-baixo">
+                            <a href="#section4" class="lista-menu__link_baixo">Projetos</a>
+                        </li>
+
+                        <li class="opções__item-baixo">
+                            <a href="#section5" class="lista-menu__link_baixo">Contato</a>
+                        </li>
+                    </ul>
+              </div>
 
 
-       <li class="opções__item">
-        <a href="#section5" class="opções__link">Contato</a>
-   </li>
-        </ul>
+     </div>
     </header>
 
     <section class="banner">
-        <div class="banner__descrição">
-            
-            <div class="descrição">
-                <h2 class="descrição__titulo">Olá,</h2>
-                <h2 class="descrição__subtitulo">Eu sou o <b class="negrito">Bruno</b>.</h2>
-                <p class="descrição__texto">Seja bem vindo(a) ao meu portifólio!</p> 
-                <a class="banner__link" href="#section2">Me conheça </a> 
+
+        <div class="banner__container">
+           
+            <div class="card__banner-desktop">
+                <div class="card__conteúdo-desktop">
+                    <div class="card__descrição-desktop">
+                        <h2 class="descrição__titulo-desktop"><b class="apresentação__negrito-desktop">Bruno Maia<br></b>Desenvolvedor Front-end</h2>
+                        <p class="descrição__texto-desktop">Bem vindo(a) ao meu portifólio! <br>Aqui você pode conhecer mais sobre mim e acessar<br>
+                            os meus projetos já concluídos.</p>
+                    </div>
+                    <div class="botão__banner-container">
+                        <a href="#section2" class="link__desktop-banner">Me conheça !</a>
+                    </div>
+                    
+                </div>
+                
             </div>
-       
-            <img src="img/foto perfil.jpeg" width="350" height="350" class="foto">
+            <div class="foto__container">
+                <img class="foto" src="img/foto perfil.jpeg" width="250px">
+            </div>
+            <div class="titulo__container">
+                <p class="titulo">.</p>
+            </div>
         </div>
-        
+        <div class="titulo__container-desktop">
+            <p class="titulo">.</p>
         </div>
     </section>
 
-    <div class="sobre" id="section2">
-        <div class="sobre__descrição">
-            <button type="button" class="btn2 cube2 cube-hover2">
-                <div class="bg-top2">
-                <div class="bg-inner2"></div>
-                </div>
-                <div class="bg-right2">
-                <div class="bg-inner2"></div>
-                </div>
-                <div class="bg2">
-                <div class="bg-inner2"></div>
-                </div>
-                <div class="text2">Sobre mim</div>
-              </button>
-            <h4 class="sobre__texto">Meu nome é <b class="negrito__sobre">Bruno Maia</b>, eu tenho 18 anos e curso Análise e Desenvolvimento de Sistemas. Meu foco está 
-                no desenvolvimento <b class="negrito__sobre">Front-end</b>, mas também me interesso pelas atividades de
-                 <b class="negrito__sobre">UX</b> e <b class="negrito__sobre">UI Design</b>.</h4>
-        </div>     
-        <img src="img/753938.png" width="800" height="500" class="sobre__img">
-    </div>
-
-     
-
-    <div class="habilidades" id="section3">
-        <ul class="lista__habilidades">
-            <li class="lista__item">
-                <div class="lista__titulo">
-                    <h2 class="titolo">Habilidades</h2>
-                </div>
-
-
-            <li class="lista__item">
-                <img src="img/setamais.PNG" class="img__seta">
-            </li>
-        
-              <li class="lista__item lista__linguagens">
-                <img src="img/htmlbçz.PNG"  class="img__lista-html">
-                <img src="img/cssblz.PNG"  class="img__lista-css">
-                <img src="img/jsblz.png" class="img__lista-js">
-            </li>
-        </ul>
-    </div>
-
-    
-    
-   <div class="projetos" id="section4">
-        <div class="projetos__titulo">
-            <button type="button" class="btn4 cube4 cube-hover4">
-                <div class="bg-top4">
-                <div class="bg-inner4"></div>
-                </div>
-                <div class="bg-right4">
-                <div class="bg-inner4"></div>
-                </div>
-                <div class="bg4">
-                <div class="bg-inner4"></div>
-                </div>
-                <div class="text4">Meus Projetos</div>
-              </button></div>
-              
-              <div class="container__projetos">
-                <ul class="banners">
-                    <li class="alurabooks">
-                      <a href="https://brunoomaia.github.io/Alura-Books/" class="projetos__link"><img class="logo__alurabooks" src="img/Logo.svg"></a>
-                       <a href="https://brunoomaia.github.io/Alura-Books/" class="projetos__link"><h1 class="alurabooks__texto"><b class="negrito__alurabooks">Alura</b>Books</h1> </a>
-                    </li>
-
-                    <li class="aluraplus">
-                         <a href="https://brunoomaia.github.io/Alura-Plus/" class="projetos__link"><h1 class="aluraplus__texto"><b class="negrito__aluraplus">Alura</b>+</h1> </a>
-                      </li>
-
-                      <li class="tempo">
-                        <a href="#" class="projetos__link"><img class="img__ampulheta" src="img/—Pngtree—flat hourglass icon download_4441368.png" width="100px"></a>
-                      </li>
-                </ul>
+    <section class="apresentação">
+        <div class="apresentação__container">
+            <div class="apresentação__texto">
+                <h2 class="apresentação__título"><b class="apresentação__negrito">Bruno Maia<br></b>Desenvolvedor Front-end</h2>
+                    <p class="apresentação__parágrafo">Bem vindo(a) ao meu portifólio! <br>Aqui você pode conhecer mais sobre mim e acessar meus projetos.</p>
             </div>
-            <div class="projeto__secundario">
-               
-                <ul class="tempo__container">
-                    <li class="tempo__secundario">
-                        <a href="#" class="projetos__link"><img class="img__ampulheta" src="img/—Pngtree—flat hourglass icon download_4441368.png"></a>
-                      </li>
 
-                      <li class="tempo__secundario">
-                        <a href="#" class="projetos__link"><img class="img__ampulheta" src="img/—Pngtree—flat hourglass icon download_4441368.png"></a>
-                      </li>
-                    </ul>
+            <div class="apresentação__elementos">
+                <a href="#section2" class="botão">Me conheça !</a>
             </div>
         </div>
-   </div>
-    
-    <footer class="rodapé" id="section5">
-       
-       
-       
-       
-       
-        <ul class="elementos">
-            
-            
-            <li class="descrição__elementos">
+    </section>
+    <section class="sobremim" id="section2">
+        <div class="sobremim__container">
+            <div class="card__sobremim">
+                
+                <div class="título-container__card">
+                    <button type="button" class="btn2 cube2 cube-hover2">
+                        <div class="bg-top2">
+                        <div class="bg-inner2"></div>
+                        </div>
+                        <div class="bg-right2">
+                        <div class="bg-inner2"></div>
+                        </div>
+                        <div class="bg2">
+                        <div class="bg-inner2"></div>
+                        </div>
+                        <div class="text2">Sobre mim</div>
+                      </button>
+                    </div>
 
-                <div class="rodapé__item">
-                    <div class="rodapé__descrição">
-                        <h2 class="rodapé__titulo">Fale comigo!</h2>
-                        <p class="rodapé__texto">Aqui estão as minhas redes sociais corporativas:</p>
-                        <p class="rodapé__texto">(11) 96973-8124</p>
+                    <div class="card__conteúdo">
+                        <div class="card__descrição">
+                            <p class="card__parágrafo">Meu nome é <b class="negrito__card"> Bruno Oliveira Maia</b>, eu tenho 18 anos e curso Análise e Desenvolvimento de Sistemas.
+                             Meu foco está no desenvolvimento <b class="negrito__card">Front-end</b> e também me interesso pelos conceitos de <b class="negrito__card">UX</b> e 
+                             <b class="negrito__card">UI Design</b>, mas estou completamente disposto a aprender sobre outras áreas e animado para
+                            realizar diferentes atividades.</p>
+                        </div>
+
+                        <div class="img__container">
+                            <img class="card__img" src="img/753938.png" width="130px" height="130px">
+
+                        </div>
+
+                    </div>
+
+                    <div class="habilidades" id="section3">
+                        <div class="container__titulo-habilidades">
+
+                            <button type="button" class="btn2 cube2 cube-hover2">
+                                <div class="bg-top2">
+                                <div class="bg-inner2"></div>
+                                </div>
+                                <div class="bg-right2">
+                                <div class="bg-inner2"></div>
+                                </div>
+                                <div class="bg2">
+                                <div class="bg-inner2"></div>
+                                </div>
+                                <div class="text2">Habilidades</div>
+                              </button>
+                            </div>
+                        </div>
+
+                        <div class="habilidades__container-texto">
+                            <p class="habilidades__texto">Através da graduação e de cursos específicos eu estudo alguns assuntos da minha área de atuação:</p>
+                        </div>
+    
+                        <div class="container__item1">
+                            <div class="habilidades__item">
+                                <h2 class="habilidades__elementos">HTML</h2>
+                            </div>
+                            <div class="habilidades__item">
+                                <h2 class="habilidades__elementos">CSS</h2>
+                            </div>
+                            <div class="habilidades__item">
+                                <h2 class="habilidades__elementos">JavaScript</h2>
+                            </div>
+                        </div>
+                        <div class="container__item2">
+                            <div class="habilidades__item">
+                                <h2 class="habilidades__elementos">C#</h2>
+                            </div>
+                            <div class="habilidades__item">
+                                <h2 class="habilidades__elementos">MySLQ</h2>
+                            </div>
+                            <div class="habilidades__item">
+                                <h2 class="habilidades__elementos">Figma</h2>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    
+                    <div class="titulo__container-desktop">
+                        <p class="titulo">.</p>
+                    </div>
+
+                    <section class="cards">
+                        
+                    </section>
+
+                    <div class="container__titulo-projetos" id="section4">
+
+                        <button type="button" class="btn2 cube2 cube-hover2">
+                            <div class="bg-top2">
+                            <div class="bg-inner2"></div>
+                            </div>
+                            <div class="bg-right2">
+                            <div class="bg-inner2"></div>
+                            </div>
+                            <div class="bg2">
+                            <div class="bg-inner2"></div>
+                            </div>
+                            <div class="text2">Meus projetos</div>
+                          </button>
+                        </div>
+                    <div class="projetos__card">
+
+                        <section class="projetos">
+                            <div class="projetos__container">
+                                <div class="lista__projetos">
+                                    <li class="projetos__item">
+                                        <div class="projetos__descrição">
+                                            <h1 class="projetos__titulo">Alura Books</h1>
+                                            <p class="projetos__texto">Um site que simula uma plataforma <br>de livros online.</p>
+                                            <p class="responsividade">Responsivo</p>
+                                        </div>
+                                        <div class="projetos__elementos">
+                                            <img class="img__projetos" src="img/alurabooks pronto outro.PNG" width="160px">
+                                            <a class="botão__projetos" href="https://brunoomaia.github.io/Alura-Books/">Visitar</a>
+                                        </div>
+                                    </li>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="projetos__card">
+
+                        <section class="projetos">
+                            <div class="projetos__container">
+                                <div class="lista__projetos">
+                                    <li class="projetos__item">
+                                        <div class="projetos__descrição">
+                                            <h1 class="projetos__titulo">Calculadora de Equações</h1>
+                                            <p class="projetos__texto">Um site que resolve equações do 2°<br> grau.</p>
+                                            <p class="responsividade">Responsivo</p>
+                                        </div>
+                                        <div class="projetos__elementos">
+                                            <img class="img__projetos" src="img/calculadora pronto.PNG" width="160px">
+                                            <a class="botão__projetos" href="https://brunomaiacalculadora.netlify.app/?num1=&num2=&num3=">Visitar</a>
+                                        </div>
+                                    </li>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="projetos__card">
+
+                        <section class="projetos">
+                            <div class="projetos__container">
+                                <div class="lista__projetos">
+                                    <li class="projetos__item">
+                                        <div class="projetos__descrição">
+                                            <h1 class="projetos__titulo">Cartão de visitas</h1>
+                                            <p class="projetos__texto">Um site bastante simples que reúne<br> informações para contato.</p>
+                                            <p class="responsividade">Responsivo</p>
+                                        </div>
+                                        <div class="projetos__elementos">
+                                            <img class="img__projetos" src="img/cartão de visitas pronto.PNG" width="160px">
+                                            <a class="botão__projetos" href="https://brunomaiacartaodevisitas.netlify.app/">Visitar</a>
+                                        </div>
+                                    </li>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="projetos__card">
+                        <section class="projetos">
+                            <div class="projetos__container">
+                                <div class="lista__projetos">
+                                    <li class="projetos__item">
+                                        <div class="projetos__descrição">
+                                            <h1 class="projetos__titulo">Alura Plus</h1>
+                                            <p class="projetos__texto">Um site que simula uma plataforma<br> de streaming.</p>
+                                            <p class="responsividade">Não responsivo</p>
+                                        </div>
+                                        <div class="projetos__elementos">
+                                            <img class="img__projetos" src="img/aluraplus pronto.PNG" width="160px">
+                                            <a class="botão__projetos" href="https://dainty-axolotl-2c2285.netlify.app/">Visitar</a>
+                                        </div>
+                                    </li>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
-            </li>
+            </div>
+    
+        </div>
+    </section>
 
-            <li class="descrição__elementos">
+    <section class="contato" id="section5">
+        <div class="contato__container">
+            <div class="contato__descrição">
+                <h2 class="contato__titulo">Fale comigo!</h2>
+                <p class="contato__texto">Clique aqui para mais informações:</p>
+                
+            </div>
+                <div class="link-contato__container">
+                    <a href="https://brunomaiacartaodevisitas.netlify.app/" class="link">Entre em contato</a>
 
-                <div class="rodapé__item">
-        
-                    <ul class="wrapper">
-                        <li class="icon linkedin">
-                           <a href="https://www.linkedin.com/in/bruno-maia-07161a279/"><img src="img/linkedin.png"  class="logo__linkedin"> </a> 
-                            <span class="tooltip">linkedin</span>
-                            <span><i class="fab fa-linkedin-f"></i></span>
-                        </li>
-                        <li class="icon github">
-                            <a href="https://github.com/BrunoOMaia "><img src="img/github-logo.png" class="logo__github"></a>
-                            <span class="tooltip">github</span>
-                            <span><i class="fab fa-github"></i></span>
-                        </li>
-        
-                    </ul>
                 </div>
-            </li>
-
-          
-        </ul>
-        
-
-
-        
-    </footer>
-
-    <ul class="opções__footer">
-        
-        <li class="opções__item">
-            <a href="#section0" class="opções__link opções__sobre">início</a>
-       </li>
-        
-        <li class="opções__item">
-             <a href="#section2" class="opções__link">sobre</a>
-        </li>
-
-        <li class="opções__item">
-            <a href="#section3" class="opções__link">Habilidades</a>
-       </li>
-
-       <li class="opções__item">
-        <a href="#section4" class="opções__link">Projetos</a>
-   </li>
+               
+            
+                
+            </div>
+        </div>
 
 
- 
-    </ul>
+    </section>
+
+    
+                
+               
+                    
+                
+
+                        
+
+                       
+
+                    
+               
+    
+    
+
+
+    
+
+    
+
+    
     
 </body>
-
+</html>
